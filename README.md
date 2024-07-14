@@ -49,13 +49,13 @@ The extracted data is transformed by:
 - Converting heights from inches to meters (rounded to two decimal places)
 - Converting weights from pounds to kilograms (rounded to two decimal places)
 
-# Load
+## Load
 The transformed data is loaded into the target CSV file transformed_data.csv.
 
-# Logging
+## Logging
 The progress of the ETL process is logged into the log_file.txt file with timestamps.
 
-# Script Explanation
+## Script Explanation
 The script contains the following functions:
 
 - extract_from_csv(file_to_process): Extracts data from a CSV file and returns a DataFrame.
@@ -66,7 +66,7 @@ The script contains the following functions:
 - load_data(target_file, transformed_data): Loads the transformed data into a target CSV file.
 - log_progress(message): Logs the progress of the ETL process.
 
-# Example Output
+## Example Output
 After running the script, the transformed_data.csv file will contain the transformed data, and the log_file.txt file will contain log entries similar to the following:
 ```sh
 2024-Jul-14-12:34:56,ETL Job Started
