@@ -24,7 +24,7 @@ pip install pandas
 ```
 ## Usage
 
-1 . Download and Extract Source Files:
+1. Download and Extract Source Files:
 Ensure that your source files are placed in the source directory.
 
 2. Run the ETL Script:
